@@ -9,4 +9,6 @@ error = np.absolute(y-y2)/y2
 
 plt.figure()
 plt.semilogy(x,error)
+plt.xlabel('x')
+plt.ylabel('error')
 plt.savefig('RK_pO.pdf')
