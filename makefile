@@ -1,5 +1,5 @@
 primera: RK_pO.pdf
-RK_pO.pdf: RK4.txt
+RK_pO.pdf: RK4.txt grafica.py
 	python grafica.py
 RK4.txt: RK4.cpp
 	c++ RK4.cpp
@@ -7,7 +7,7 @@ RK4.txt: RK4.cpp
 	rm a.out
 
 segunda: RK_sO.pdf
-RK_sO.pdf: RK4_sOrd.txt
+RK_sO.pdf: RK4_sOrd.txt grafica_2.py
 	python grafica_2.py
 RK4_sOrd.txt: RK4_2Ord.cpp
 	c++ RK4_2Ord.cpp
